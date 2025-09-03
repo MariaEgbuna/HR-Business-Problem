@@ -1,5 +1,3 @@
-# Employee Data Analysis: Retention, Performance, and Departmental Insights
-
 ## Project Overview
 
 This project involves an in-depth analysis of employee data to uncover critical insights related to talent retention, performance dynamics, and departmental health. Utilizing a provided dataset, the analysis aims to answer key business questions that can inform human resources strategies and improve overall organizational stability and efficiency.
