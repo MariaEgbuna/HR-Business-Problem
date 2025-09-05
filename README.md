@@ -45,6 +45,7 @@ To address the high turnover and performance issues, it is recommended that the 
 2. Enhance Performance Management: Implement a review of management practices in units with high numbers of low performers, such as PYZ. Develop a targeted training and development plan for senior employees to ensure their skills remain relevant.
 
 3. Review Compensation and Career Paths: Conduct a market analysis of compensation for high-turnover, high-skill roles. Additionally, establish clear career progression paths for these roles to provide employees with a reason to stay and grow within the company.
+
 ---
 
 **Date:** June 12, 2025
