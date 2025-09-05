@@ -14,59 +14,37 @@ The analysis is based on the `employee_data.csv` file, which contains comprehens
 * Performance metrics (performance score, current employee rating)
 * Termination details (termination type)
 
-## Data Preprocessing
-
-During the analysis, the following data preprocessing steps were performed:
-* **Age Calculation:** Employee ages were accurately extracted from their `date_of_birth`.
-* **Age Group Creation:** A new `age_group` column was created to categorize employees into distinct age brackets, facilitating demographic analysis.
-
 ## Tools Used
 
 * **PostgreSQL:** For querying and managing relational data (as demonstrated through SQL queries).
-* **Excel:** Implied for potential further data manipulation or detailed review.
 
-## Key Analysis Sections & Findings
+## Key Findings
 
-### 1. Employee Retention & Attrition Analysis
+The company is experiencing a significant systemic turnover problem. Key findings include:
 
-* **Overall Attrition:** The organization faces a significant challenge with high employee attrition rates across the board.
-* **Departmental Hotspots:** The **Executive Office (~79%)**, **Admin Offices (~60%)**, and **Software Engineering (~56%)** departments exhibit exceptionally high attrition rates.
-* **Pay Zone Parity:** High turnover is not localized to specific pay bands; all three pay zones (`Zone A`, `B`, `C`) show similarly high attrition rates (around 50-53%).
-* **High-Risk Job Functions:** Critical specialized and leadership roles like **Data Architect (100% turnover)**, **Enterprise Architect (80%)**, and **Software Engineering Manager (70%)** are particularly vulnerable to high attrition. Roles in BI and Data (e.g., Senior BI Developer, BI Developer, Data Analyst) also demonstrate high turnover.
+* A high company-wide attrition rate, with a major spike in 2023, affecting all departments and pay zones.
 
-### 2. Tenure & Performance Insights
+* The Executive Office and Admin Offices have exceptionally high attrition rates of 79% and 60%, respectively.
 
-* **Generally Short Tenure:** The average employee tenure is short, typically ranging from **1.2 to 1.6 years** across various termination types.
-* **Unusual 'PIP' Tenure:** Counter-intuitively, employees on a **Performance Improvement Plan (PIP)** show the *longest average tenure* (~1.60 years), which is even higher than 'Exceeds' performers. This finding suggests a need to investigate the lifecycle and exit processes for PIP employees.
-* **Short Tenure in Key Roles:** Some highly specialized and senior IT/Data roles, such as **Sr. DBA (~0.58 years)**, **IT Manager - Infra (~0.62 years)**, **CIO (~0.78 years)**, and **Data Architect (~0.79 years)**, exhibit the shortest average tenures, indicating potential challenges in retaining critical top-tier talent.
-* **Performance Rating Consistency:** Employee classification (Part-Time, Full-Time, Temporary) had a negligible impact on formal performance ratings, with averages remaining consistent across classifications.
+*Average employee tenure is consistently low, with most job functions averaging less than 2 years. Highly-skilled roles like Data Architect and IT Manager - Infra have the shortest tenures.
 
-### 3. Departmental & Job Function Analysis
+* Performance issues are not evenly distributed. The PYZ business unit has the highest percentage of low-performing employees, particularly among those in the 56-70 age group.
 
-* **Concentrations of Low Performers:** Certain business units, notably **PYZ (12.04% low-performing)**, **BPC (10.56%)**, and **MSC (10.47%)**, have a higher percentage of employees with 'Needs Improvement' or 'PIP' scores.
-* **Involuntary Termination Hotspots:** Divisions like **Corp Operations (50%)**, **Sales & Marketing (33.33%)**, and **Billable Consultants (29.17%)** experience a significantly higher percentage of involuntary terminations compared to others.
+* Exits are split nearly equally between voluntary and involuntary terminations.
 
 ## Conclusion: Driving Strategic Action from Employee Data Insights
 
-This comprehensive analysis of employee data reveals a **critical and widespread retention challenge** impacting the organization across various dimensions. The data strongly indicates that a "one-size-fits-all" approach to talent management is insufficient, necessitating targeted strategies to address specific areas of concern.
+The data indicates that the company is struggling with talent retention and management on multiple fronts. The low average tenure, combined with high attrition in specialized roles, suggests the company is unable to compete for or retain its most valuable talent. The near-even split between voluntary and involuntary exits implies a dual issue: employees are leaving for better opportunities (voluntary), and the company is actively terminating a significant number of underperforming employees (involuntary). This points to a deeper root cause involving either an uncompetitive environment, or inadequate performance and development programs.
 
-**Key strategic implications derived from my observations include:**
+**Recommendation:**
 
-1.  **Urgent Attrition Mitigation:**
-    * The exceptionally high attrition rates in **Executive Office (~79%)**, **Admin Offices (~60%)**, and **Software Engineering (~56%)** demand immediate investigation and tailored retention programs.
-    * The severe turnover in specialized technical roles like **Data Architect (100%)**, **Enterprise Architect (80%)**, and **Software Engineering Manager (70%)** points to potential talent pipeline vulnerabilities and a need for focused efforts to retain these critical skill sets.
-    * The consistent high turnover across **all pay zones** suggests that compensation alone may not be the primary driver of attrition, indicating other systemic issues that need to be addressed (e.g., culture, career development, management effectiveness).
+To address the high turnover and performance issues, it is recommended that the company focus on three key areas:
 
-2.  **Re-evaluating Performance Management & Tenure Strategies:**
-    * The counter-intuitive finding that **employees on Performance Improvement Plans (PIP) exhibit the longest average tenure (~1.60 years)** necessitates a thorough review of the PIP process. This could indicate either a highly effective program that successfully retains and rehabilitates talent, or, conversely, a prolonged and inefficient exit process.
-    * The alarmingly **short tenures for critical senior roles** such as **Sr. DBA (~0.58 years)**, **IT Manager - Infra (~0.62 years)**, **CIO (~0.78 years)**, and **Data Architect (~0.79 years)** signal a significant risk to organizational knowledge, leadership continuity, and strategic initiatives. Focused retention efforts for these high-impact positions are paramount.
+1. Investigate High-Turnover Areas: Conduct targeted exit interviews for employees in roles and departments with the highest attrition rates (e.g., Executive Office, Data Architect). The goal is to gather qualitative data to understand the specific reasons for their departure.
 
-3.  **Targeted Departmental Interventions:**
-    * Business units like **PYZ (12.04% low-performing)**, **BPC (10.56%)**, and **MSC (10.47%)** require specific performance improvement initiatives and leadership support to enhance overall team effectiveness.
-    * The higher rates of **involuntary terminations** in **Sales & Marketing (33.33%)** and **Billable Consultants (29.17%)** warrant an examination of recruitment practices, role clarity, performance expectations, and management training within these divisions.
+2. Enhance Performance Management: Implement a review of management practices in units with high numbers of low performers, such as PYZ. Develop a targeted training and development plan for senior employees to ensure their skills remain relevant.
 
-In essence, the data paints a clear picture: while talent acquisition is crucial, the organization's greater challenge lies in **retaining its workforce effectively and ensuring performance consistency**. These observations provide the necessary data-driven foundation for HR and leadership to pinpoint areas for strategic investment, develop targeted retention programs, refine performance management frameworks, and ultimately foster a more stable and high-performing employee base.
-
+3. Review Compensation and Career Paths: Conduct a market analysis of compensation for high-turnover, high-skill roles. Additionally, establish clear career progression paths for these roles to provide employees with a reason to stay and grow within the company.
 ---
 
 **Date:** June 12, 2025
