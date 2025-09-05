@@ -26,7 +26,7 @@ The company is experiencing a significant systemic turnover problem. Key finding
 
 * The Executive Office and Admin Offices have exceptionally high attrition rates of 79% and 60%, respectively.
 
-*Average employee tenure is consistently low, with most job functions averaging less than 2 years. Highly-skilled roles like Data Architect and IT Manager - Infra have the shortest tenures.
+* Average employee tenure is consistently low, with most job functions averaging less than 2 years. Highly-skilled roles like Data Architect and IT Manager - Infra have the shortest tenures.
 
 * Performance issues are not evenly distributed. The PYZ business unit has the highest percentage of low-performing employees, particularly among those in the 56-70 age group.
 
@@ -36,7 +36,7 @@ The company is experiencing a significant systemic turnover problem. Key finding
 
 The data indicates that the company is struggling with talent retention and management on multiple fronts. The low average tenure, combined with high attrition in specialized roles, suggests the company is unable to compete for or retain its most valuable talent. The near-even split between voluntary and involuntary exits implies a dual issue: employees are leaving for better opportunities (voluntary), and the company is actively terminating a significant number of underperforming employees (involuntary). This points to a deeper root cause involving either an uncompetitive environment, or inadequate performance and development programs.
 
-**Recommendation:**
+## Recommendation:
 
 To address the high turnover and performance issues, it is recommended that the company focus on three key areas:
 
