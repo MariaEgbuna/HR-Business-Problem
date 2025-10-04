@@ -1,4 +1,4 @@
-## Project Overview
+# Project Overview
 
 This project involves an in-depth analysis of employee data to uncover critical insights related to talent retention, performance dynamics, and departmental health. Utilizing a provided dataset, the analysis aims to answer key business questions that can inform human resources strategies and improve overall organizational stability and efficiency.
 
@@ -9,6 +9,7 @@ The primary business problem addressed by this analysis is to **understand the u
 ## Dataset
 
 The analysis is based on the `employee_data.csv` file, which contains comprehensive information about employees, including:
+
 * Employee demographics (date of birth, gender, race, marital status)
 * Employment details (start date, exit date, title, department, division, business unit, employee type, classification, pay zone)
 * Performance metrics (performance score, current employee rating)

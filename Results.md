@@ -7,6 +7,7 @@ This document summarizes the key findings and observations from our comprehensiv
 ## 1. Employee Retention & Attrition Analysis
 
 ### Turnover Rate by Job Title
+
 | title | total_employees | exited_employees | turnover_rate |
 |:---|:---|:---|:---|
 | Data Architect | 1 | 1 | 100 |
@@ -21,11 +22,13 @@ This document summarizes the key findings and observations from our comprehensiv
 | Front End Developer | 3 | 1 | 33.3333 |
 
 **Observations:**
+
 * **Highly Specialized and Management Roles:** Job titles like `Data Architect`, `Enterprise Architect`, and `Software Engineering Manager` exhibit exceptionally high turnover rates, indicating significant challenges in retaining talent in these critical areas.
 * **Data/BI Roles:** `Sr. BI Developer`, `BI Developer`, and `Data Analyst` also show substantial turnover, suggesting a potential industry-wide or company-specific issue in retaining data professionals.
 * **Variability:** While some roles have very high turnover, others like `Senior Software Engineer` and `Principal Software Engineer` show high but comparatively lower rates.
 
 ### Turnover Rate by Pay Zone
+
 | payzone | total_employees | exited_employees | turnover_rate |
 |:---|:---|:---|:---|
 | Zone C | 1206 | 647 | 53.6484 |
@@ -33,11 +36,13 @@ This document summarizes the key findings and observations from our comprehensiv
 | Zone B | 477 | 237 | 49.6855 |
 
 **Observations:**
+
 * **Consistent High Turnover:** All three pay zones (`Zone C`, `Zone A`, `Zone B`) exhibit very similar and high turnover rates, ranging from approximately 49.7% to 53.6%. This indicates that high turnover is not concentrated in one specific compensation tier but is a broader organizational issue.
 
 ### Supervisor Assignment & Turnover
 
 **Observations:**
+
 * While some supervisors showed 100% turnover, this was predominantly in cases where they managed only one employee. Therefore, a clear, pervasive pattern of supervisor assignments *directly causing* high turnover could not be definitively established from this dataset due to the small team sizes under such supervisors.
 
 ---
@@ -45,6 +50,7 @@ This document summarizes the key findings and observations from our comprehensiv
 ## 2. Tenure & Performance Insights
 
 ### Relationship between Tenure and Termination Type
+
 | termination_type | average_tenure_years |
 |:---|:---|
 | PIP | 1.6045 |
@@ -55,11 +61,13 @@ This document summarizes the key findings and observations from our comprehensiv
 | Unknown | 1.25624 |
 
 **Observations:**
+
 * **Overall Short Tenure:** The average tenure across all termination types is remarkably short, generally ranging from 1.2 to 1.6 years. This indicates a pervasive challenge in retaining employees for longer durations, regardless of how they leave the company.
 * **Unexpected PIP Tenure:** Surprisingly, employees terminated due to a **Performance Improvement Plan (PIP)** have the *longest average tenure* (approximately 1.60 years). This is a counter-intuitive finding that might suggest a prolonged process for managing and exiting underperforming employees.
 * **Resignations:** Employees who `Resign` have the second-longest average tenure, slightly less than those on PIP.
 
 ### Impact of Employee Classification on Performance Ratings
+
 | employee_classification_type | average_performance_score |
 |:---|:---|
 | Full-Time | 3.0181 |
@@ -67,14 +75,17 @@ This document summarizes the key findings and observations from our comprehensiv
 | Part-Time | 3.00392 |
 
 **Observations:**
+
 * **Minimal Impact:** The `employee_classification_type` (Full-Time, Temporary, Part-Time) has a very minimal impact on average `performance_score`. All classifications show an average performance score very close to 3.0 ('Fully Meets'), suggesting a consistent level of performance or a consistent rating distribution across different employee types.
 
 ### Relationship between Performance Scores and Tenure
 
 **Observations:**
+
 * The relationship between `performance_score` and `tenure` is not straightforward. While 'Exceeds' performers generally have good tenure, the **longest tenure was observed among 'PIP' employees**. This warrants further investigation into the specific circumstances surrounding employee tenure under performance improvement plans.
 
 ### Percentage of Low-Performing Employees by Business Unit
+
 | business_unit | total_employees | low_performing_count | percentage_low_performing |
 |:---|:---|:---|:---|
 | PYZ | 299 | 36 | 12.0401 |
@@ -89,6 +100,7 @@ This document summarizes the key findings and observations from our comprehensiv
 | NEL | 304 | 23 | 7.56579 |
 
 **Observations:**
+
 * **PYZ has the highest percentage:** The 'PYZ' business unit stands out with 12.04% of its employees classified as low-performing ('Needs Improvement' or 'PIP').
 * **Other significant units:** 'BPC' and 'MSC' also show relatively high percentages of low-performing employees at around 10.5% and 10.47% respectively.
 * **Varying percentages:** The percentages across the top 10 business units range from about 7.5% to over 12%. This indicates a clear disparity in the concentration of low performers across different units, suggesting a need for targeted interventions.
@@ -98,6 +110,7 @@ This document summarizes the key findings and observations from our comprehensiv
 ## 3. Departmental & Job Function Analysis
 
 ### Departments with Highest Employee Attrition Rates
+
 | department_type | total_employees | exited_employees | attrition_rate |
 |:---|:---|:---|:---|
 | Executive Office | 24 | 19 | 79.1667 |
@@ -108,11 +121,13 @@ This document summarizes the key findings and observations from our comprehensiv
 | Sales | 331 | 164 | 49.5468 |
 
 **Observations:**
+
 * **Executive Office has the highest attrition:** The 'Executive Office' department stands out significantly with an attrition rate of approximately 79.17%. While it has a smaller total number of employees, this rate is exceptionally high.
 * **Admin Offices and Software Engineering also high:** 'Admin Offices' and 'Software Engineering' follow with notably high attrition rates of 60% and 55.65%, respectively.
 * **Widespread Attrition:** Even larger departments like 'IT/IS', 'Production', and 'Sales' show attrition rates around or above 50%, indicating that high attrition is a prevalent issue across most departments.
 
 ### Divisions Experiencing More Involuntary Terminations
+
 | division | total_employees | involuntary_termination_count | percentage_involuntary_termination |
 |:---|:---|:---|:---|
 | Corp Operations | 2 | 1 | 50 |
@@ -142,12 +157,14 @@ This document summarizes the key findings and observations from our comprehensiv
 | Isp | 14 | 0 | 0 |
 
 **Observations:**
+
 * **'Corp Operations' has the highest percentage:** With a small sample size, 'Corp Operations' shows 50% involuntary terminations.
 * **'Sales & Marketing' and 'Billable Consultants' are next:** These divisions have notable involuntary termination rates of 33.33% and 29.17% respectively, indicating a concentration of involuntary exits.
 * **Significant rates across several divisions:** Many other divisions show rates ranging from 12% to 20%, highlighting that involuntary terminations are not isolated.
 * **'Isp' has zero involuntary terminations:** This division stands out with no recorded involuntary terminations.
 
 ### Average Tenure per Job Function
+
 | job_function | average_tenure_years |
 |:---|:---|
 | IT Director | 2.22259 |
@@ -184,9 +201,13 @@ This document summarizes the key findings and observations from our comprehensiv
 | Sr. DBA | 0.57974 |
 
 **Observations:**
+
 * **Longest Tenures in Leadership and Specialized IT/Data Roles:** Roles such as `IT Director`, `Principal Data Architect`, and `Database Administrator` show the longest average tenures (above 2 years), suggesting greater stability in senior leadership and highly specialized technical positions.
 * **Shortest Tenures in Critical Roles:** Conversely, some highly specialized or senior roles like `Sr. DBA` (0.58 years), `IT Manager - Infra` (0.62 years), `CIO` (0.78 years), and `Data Architect` (0.79 years) have the shortest average tenures. This indicates a potential churn issue in these critical, high-impact roles, raising concerns about knowledge retention and leadership continuity.
 * **Varying Tenures in Data-Related Roles:** `Data Analyst` (appearing twice, with tenures of 1.45 and 1.07 years), `Senior BI Developer` (1.30 years), and `BI Developer` (1.29 years) show moderate tenures, falling within the overall short average tenure range.
 
 ---
+**Author:** *Maria Egbuna*  
+**Project:** *Employee Attrition and Performance Trend Analysis using PostgreSQL*  
+**License:** *MIT License*  
 **Date:** June 12, 2025
