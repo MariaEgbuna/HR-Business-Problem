@@ -47,5 +47,7 @@ To address the high turnover and performance issues, it is recommended that the 
 3. Review Compensation and Career Paths: Conduct a market analysis of compensation for high-turnover, high-skill roles. Additionally, establish clear career progression paths for these roles to provide employees with a reason to stay and grow within the company.
 
 ---
-
+**Author:** *Maria Egbuna*  
+**Project:** *Employee Attrition and Performance Trend Analysis using PostgreSQL*  
+**License:** *MIT License*  
 **Date:** June 12, 2025
