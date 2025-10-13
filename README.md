@@ -1,51 +1,76 @@
-# Project Overview
+# 🧑‍💼 Employee Data Analysis — Summary Report
 
-This project involves an in-depth analysis of employee data to uncover critical insights related to talent retention, performance dynamics, and departmental health. Utilizing a provided dataset, the analysis aims to answer key business questions that can inform human resources strategies and improve overall organizational stability and efficiency.
+## 📘 Project Overview
+An in-depth analysis of employee data to identify **drivers of attrition**, **performance issues**, and **departmental inefficiencies**.  
+Goal: Support HR in improving **retention**, **performance management**, and **organizational stability**.
 
-## Business Problem
+---
 
-The primary business problem addressed by this analysis is to **understand the underlying factors contributing to employee attrition and performance trends within the organization.** By identifying areas of high turnover, concentrations of low performance, and specific departmental or job function challenges, the goal is to provide actionable insights for strategic interventions in talent management, recruitment, and operational efficiency.
+## 🧩 Business Problem
+The company faces rising **employee attrition** and inconsistent **performance trends**.  
+Objective: Identify key factors influencing turnover and performance to guide **strategic HR interventions** in recruitment, retention, and workforce development.
 
-## Dataset
+---
 
-The analysis is based on the `employee_data.csv` file, which contains comprehensive information about employees, including:
+## 🗂️ Dataset Overview
+**Source:** `employee_data.csv`
 
-* Employee demographics (date of birth, gender, race, marital status)
-* Employment details (start date, exit date, title, department, division, business unit, employee type, classification, pay zone)
-* Performance metrics (performance score, current employee rating)
-* Termination details (termination type)
+**Includes:**
+- **Demographics:** Date of birth, gender, race, marital status  
+- **Employment Details:** Start/exit dates, title, department, business unit, pay zone, classification  
+- **Performance Metrics:** Performance score, current rating  
+- **Termination Info:** Voluntary and involuntary exit details  
 
-## Tools Used
+**Tool Used:**  
+- **PostgreSQL** — for querying, cleaning, and analyzing relational data.
 
-* **PostgreSQL:** For querying and managing relational data (as demonstrated through SQL queries).
+---
 
-## Key Findings
+## 🔍 Key Findings
 
-The company is experiencing a significant systemic turnover problem. Key findings include:
+1. **High Attrition Rates**
+   - Major turnover spike in **2023** across all departments and pay zones.
+   - **Executive Office:** 79% attrition  
+   - **Admin Office:** 60% attrition  
 
-* A high company-wide attrition rate, with a major spike in 2023, affecting all departments and pay zones.
+2. **Low Average Tenure**
+   - Most employees stay **< 2 years**.  
+   - Shortest tenures in **high-skill roles** like *Data Architect* and *IT Manager (Infra)*.
 
-* The Executive Office and Admin Offices have exceptionally high attrition rates of 79% and 60%, respectively.
+3. **Performance Challenges**
+   - **PYZ business unit** has the **highest concentration of low performers**, especially among employees aged **56–70**.
 
-* Average employee tenure is consistently low, with most job functions averaging less than 2 years. Highly-skilled roles like Data Architect and IT Manager - Infra have the shortest tenures.
+4. **Termination Trends**
+   - Nearly equal split between **voluntary** (resignations) and **involuntary** (terminations) exits.  
+   - Indicates both **employee dissatisfaction** and **active performance-based offboarding**.
 
-* Performance issues are not evenly distributed. The PYZ business unit has the highest percentage of low-performing employees, particularly among those in the 56-70 age group.
+---
 
-* Exits are split nearly equally between voluntary and involuntary terminations.
+## 🧠 Conclusion
+The company struggles with **retention, engagement, and skill sustainability**.  
+Short tenures and high attrition among critical roles signal difficulty in **retaining top talent**.  
+Balanced voluntary/involuntary exits suggest deeper organizational issues — possibly related to **culture, pay competitiveness**, or **weak development programs**.
 
-## Conclusion: Driving Strategic Action from Employee Data Insights
+---
 
-The data indicates that the company is struggling with talent retention and management on multiple fronts. The low average tenure, combined with high attrition in specialized roles, suggests the company is unable to compete for or retain its most valuable talent. The near-even split between voluntary and involuntary exits implies a dual issue: employees are leaving for better opportunities (voluntary), and the company is actively terminating a significant number of underperforming employees (involuntary). This points to a deeper root cause involving either an uncompetitive environment, or inadequate performance and development programs.
+## ✅ Recommendations
 
-## Recommendation:
+1. **Investigate High-Turnover Roles**
+   - Conduct **targeted exit interviews** in high-attrition areas (e.g., Executive Office, Data Architects).  
+   - Collect qualitative insights to identify push/pull factors.
 
-To address the high turnover and performance issues, it is recommended that the company focus on three key areas:
+2. **Strengthen Performance Management**
+   - Audit **PYZ unit’s** management practices.  
+   - Implement **upskilling programs** for senior and low-performing staff.
 
-1. Investigate High-Turnover Areas: Conduct targeted exit interviews for employees in roles and departments with the highest attrition rates (e.g., Executive Office, Data Architect). The goal is to gather qualitative data to understand the specific reasons for their departure.
+3. **Review Compensation & Career Progression**
+   - Perform **market salary benchmarking** for critical, high-turnover roles.  
+   - Create **clear career paths** to promote internal growth and retention.
 
-2. Enhance Performance Management: Implement a review of management practices in units with high numbers of low performers, such as PYZ. Develop a targeted training and development plan for senior employees to ensure their skills remain relevant.
+---
 
-3. Review Compensation and Career Paths: Conduct a market analysis of compensation for high-turnover, high-skill roles. Additionally, establish clear career progression paths for these roles to provide employees with a reason to stay and grow within the company.
+> 💡 **Strategic Insight:**  
+> The key to improving stability lies in **aligning compensation, culture, and career growth**, while addressing systemic issues in performance management and employee engagement.
 
 ---
 **Author:** *Maria Egbuna*  
