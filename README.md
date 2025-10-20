@@ -29,9 +29,9 @@ Objective: Identify key factors influencing turnover and performance to guide **
 
 ## 📊 Exploratory Data Analysis
 
-### 1. Employee Retention & Attrition Analysis
+## 1. Employee Retention & Attrition Analysis
 
-#### Turnover Rate by Job Title
+### Turnover Rate by Job Title
 
 | Job Title | Employee Count | Exited Employees | Turnover Rate |
 |:---|:---|:---|:---|
@@ -52,7 +52,7 @@ Objective: Identify key factors influencing turnover and performance to guide **
 - **Data/BI Roles:** `Sr. BI Developer`, `BI Developer`, and `Data Analyst` also show substantial turnover, suggesting a potential industry-wide or company-specific issue in retaining data professionals.
 - **Variability:** While some roles have very high turnover, others like `Senior Software Engineer` and `Principal Software Engineer` show high but comparatively lower rates.
 
-#### Turnover Rate by Pay Zone
+### Turnover Rate by Pay Zone
 
 | Payzone | Employee Count | Exited Employees | Turnover Rate |
 |:---|:---|:---|:---|
@@ -64,7 +64,7 @@ Objective: Identify key factors influencing turnover and performance to guide **
 
 - **Consistent High Turnover:** All three pay zones (`Zone C`, `Zone A`, `Zone B`) exhibit very similar and high turnover rates, ranging from approximately 49.7% to 53.6%. This indicates that high turnover is not concentrated in one specific compensation tier but is a broader organizational issue.
 
-#### Supervisor Assignment & Turnover
+### Supervisor Assignment & Turnover
 
 **Observations:**
 
@@ -72,9 +72,9 @@ Objective: Identify key factors influencing turnover and performance to guide **
 
 ---
 
-### 2. Tenure & Performance Insights
+## 2. Tenure & Performance Insights
 
-#### Relationship between Tenure and Termination Type
+### Relationship between Tenure and Termination Type
 
 | Termination Type | Avg Tenure (Yrs) |
 |:---|:---|
@@ -91,7 +91,7 @@ Objective: Identify key factors influencing turnover and performance to guide **
 - **Unexpected PIP Tenure:** Surprisingly, employees terminated due to a **Performance Improvement Plan (PIP)** have the *longest average tenure* (approximately 1.60 years). This is a counter-intuitive finding that might suggest a prolonged process for managing and exiting underperforming employees.
 - **Resignations:** Employees who `Resign` have the second-longest average tenure, slightly less than those on PIP.
 
-#### Impact of Employee Classification on Performance Ratings
+### Impact of Employee Classification on Performance Ratings
 
 | Employee Classification | Avg Performance Score |
 |:---|:---|
@@ -103,13 +103,13 @@ Objective: Identify key factors influencing turnover and performance to guide **
 
 - **Minimal Impact:** The `Employee Classification` (Full-Time, Temporary, Part-Time) has a very minimal impact on `Avg Performance Score`. All classifications show an average performance score very close to 3.0 ('Fully Meets'), suggesting a consistent level of performance or a consistent rating distribution across different employee types.
 
-#### Relationship between Performance Scores and Tenure
+### Relationship between Performance Scores and Tenure
 
 **Observations:**
 
 - The relationship between `performance_score` and `tenure` is not straightforward. While 'Exceeds' performers generally have good tenure, the **longest tenure was observed among 'PIP' employees**. This warrants further investigation into the specific circumstances surrounding employee tenure under performance improvement plans.
 
-#### Percentage of Low-Performing Employees by Business Unit
+### Percentage of Low-Performing Employees by Business Unit
 
 | Business Unit | Employee Count | No of Low Performers | Percentage |
 |:---|:---|:---|:---|
@@ -132,9 +132,9 @@ Objective: Identify key factors influencing turnover and performance to guide **
 
 ---
 
-### 3. Departmental & Job Function Analysis
+## 3. Departmental & Job Function Analysis
 
-#### Departments with Highest Employee Attrition Rates
+### Departments with Highest Employee Attrition Rates
 
 | Departments | Employee Count | Exited Enployees | Attrition Rate |
 |:---|:---|:---|:---|
@@ -151,7 +151,7 @@ Objective: Identify key factors influencing turnover and performance to guide **
 - **Admin Offices and Software Engineering also high:** 'Admin Offices' and 'Software Engineering' follow with notably high attrition rates of 60% and 55.65%, respectively.
 - **Widespread Attrition:** Even larger departments like 'IT/IS', 'Production', and 'Sales' show attrition rates around or above 50%, indicating that high attrition is a prevalent issue across most departments.
 
-#### Divisions Experiencing More Involuntary Terminations
+### Divisions Experiencing More Involuntary Terminations
 
 | Division | Employee Count | Involuntary Termination Count | Percentage |
 |:---|:---|:---|:---|
@@ -188,7 +188,7 @@ Objective: Identify key factors influencing turnover and performance to guide **
 - **Significant rates across several divisions:** Many other divisions show rates ranging from 12% to 20%, highlighting that involuntary terminations are not isolated.
 - **'Isp' has zero involuntary terminations:** This division stands out with no recorded involuntary terminations.
 
-#### Average Tenure per Job Function
+### Average Tenure per Job Function
 
 | Job Function | Avg Tenure (Yrs) |
 |:---|:---|
