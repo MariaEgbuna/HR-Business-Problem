@@ -1,4 +1,4 @@
-# 🧑‍💼 Employee Data Analysis — Summary Report
+# 🧑‍💼 HR Insights & Retention Analysis
 
 ## 📘 Project Overview
 
