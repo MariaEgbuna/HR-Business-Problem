@@ -1,33 +1,20 @@
 # 🧑‍💼 HR Insights & Retention Analysis
 
-## 📘 Project Overview
+## Project Overview
 
 An in-depth analysis of employee data to identify **drivers of attrition**, **performance issues**, and **departmental inefficiencies**.  
 Goal: Support HR in improving **retention**, **performance management**, and **organizational stability**.
 
 ---
 
-## 🧩 Business Problem
+## Business Problem
 
 The company faces rising **employee attrition** and inconsistent **performance trends**.  
 Objective: Identify key factors influencing turnover and performance to guide **strategic HR interventions** in recruitment, retention, and workforce development.
 
 ---
 
-## 🗂️ Dataset Overview
-
-**Source:** [Employee Dataset](<Datasets/Cleaned Data.csv>)
-
-**Includes:**
-
-- **Demographics:** Date of birth, gender, race, marital status  
-- **Employment Details:** Start/exit dates, title, department, business unit, pay zone, classification  
-- **Performance Metrics:** Performance score, current rating  
-- **Termination Info:** Voluntary and involuntary exit details  
-
----
-
-## 📊 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 ## 1. Employee Retention & Attrition Analysis
 
@@ -110,7 +97,7 @@ The workforce composition by employment type (Full-Time, Temporary, Part-Time) i
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 
 1. **High Attrition Rates**
    - **Executive Office:** 79% attrition  
@@ -149,7 +136,7 @@ Balanced voluntary/involuntary exits suggest deeper organizational issues — po
 
 ---
 
-> 💡 **Strategic Insight:**  
+> **Strategic Insight:**  
 > The key to improving stability lies in **aligning compensation, culture, and career growth**, while addressing systemic issues in performance management and employee engagement.
 
 ---
