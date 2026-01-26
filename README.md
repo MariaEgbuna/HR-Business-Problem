@@ -1,9 +1,7 @@
 # 🧑‍💼 HR Insights & Retention Analysis
 
-## Project Overview
-
-An in-depth analysis of employee data to identify **drivers of attrition**, **performance issues**, and **departmental inefficiencies**.  
-Goal: Support HR in improving **retention**, **performance management**, and **organizational stability**.
+## Goal
+Support HR in improving **retention**, **performance management**, and **organizational stability**.
 
 ---
 
