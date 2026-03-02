@@ -1,7 +1,4 @@
-# 🧑‍💼 HR Insights & Retention Analysis
-
-## Goal
-Support HR in improving **retention**, **performance management**, and **organizational stability**.
+# HR Insights & Retention Analysis
 
 ---
 
@@ -142,11 +139,10 @@ Balanced voluntary/involuntary exits suggest deeper organizational issues — po
 ## Tool Used
 
 - **Excel** - For cleaning and standardizing the dataset.
-- **PostgreSQL** — For querying, cleaning, and analyzing relational data.
+- **PostgreSQL** — For querying and analyzing relational data.
 - **Power BI** - For visualization.
 
 ---
 **Author:** *Maria Egbuna*  
 **Project:** *Employee Attrition and Performance Trend Analysis*  
-**License:** *MIT License*  
 **Date:** June 12, 2025
