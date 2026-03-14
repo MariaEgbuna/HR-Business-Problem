@@ -141,8 +141,3 @@ Balanced voluntary/involuntary exits suggest deeper organizational issues — po
 - **Excel** - For cleaning and standardizing the dataset.
 - **PostgreSQL** - For querying and analyzing relational data.
 - **Power BI** - For visualization.
-
----
-**Author:** *Maria Egbuna*  
-**Project:** *Employee Attrition and Performance Trend Analysis*  
-**Date:** June 12, 2025
