@@ -139,7 +139,7 @@ Balanced voluntary/involuntary exits suggest deeper organizational issues — po
 ## Tool Used
 
 - **Excel** - For cleaning and standardizing the dataset.
-- **PostgreSQL** — For querying and analyzing relational data.
+- **PostgreSQL** - For querying and analyzing relational data.
 - **Power BI** - For visualization.
 
 ---
